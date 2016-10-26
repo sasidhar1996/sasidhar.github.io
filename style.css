@@ -1,0 +1,39 @@
+article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
+
+body
+{
+ background-color: yellow;
+}
+#container
+{
+  width=1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: "img/bgg.img"
+}
+header
+{
+  width:1000px;
+  text-align: center;
+  background-color: currentColor;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px
+}
+footer
+{
+  width=1000px;
+  text-align: center;
+  background-color: currentColor;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  clear: both;
+}
+#content ul
+{
+  list-style-type: none;
+}
+#content{
+  float: right;
+  width:200px;
+}
